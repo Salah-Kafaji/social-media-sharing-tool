@@ -1,0 +1,177 @@
+body{
+    direction: rtl;
+}
+.SH-CnttShar_C {
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+    position: relative;
+}
+
+.SH-AIST_C {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+
+.addthis_inline_share_toolbox {
+    width: 290px;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    max-height: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: max-content;
+    padding: 0px;
+    border-radius: 22px;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    transition: all 0.3s;
+    z-index: 1;
+    background-color: #666666;
+
+}
+
+.SH-sharText {
+    text-align: center;
+    font-size: 15px;
+    color: #5c5d73;
+    padding: 16px ;
+    font-weight: 500;
+    background-color: #20242e;
+    padding-bottom: 25px;
+}
+.SH-sharText span{
+    font-size: 13px;
+}
+
+
+.SH-closeSHicone {
+    float: left;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.SH-sharText span {
+    margin-right: 6px;
+}
+
+.open_inline_share_toolbox {
+    max-height: 1000px;
+    opacity: 1;
+}
+
+
+.at-resp-share-element {
+    padding: 20px!important;
+    background-color: #20242e;
+    padding-bottom: 40px !important;
+}
+
+
+.addthis_inline_share_toolbox a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px !important;
+    border-bottom: 1px solid #444444 !important;
+    background-color: #3d3d3d;
+    margin: 10px 0px !important;
+}
+
+.at-style-responsive .at-share-btn {
+    padding: 5px;
+    width: 50%;
+    border: 0px !important;
+    transition: opacity  0.3s!importan;
+}
+
+.at-style-responsive .at-share-btn:hover {
+    opacity: 0.5;
+    transform: translateY(0px)!important;
+}
+
+
+.at-style-responsive .at-share-btn {
+    padding: 5px;
+}
+
+.at-resp-share-element.at-mobile .at-share-btn {
+    margin-right: 5px;
+}
+
+
+.addthis_inline_share_toolbox a span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0px !important;
+    padding: 0px !important;
+    float: none!important;
+}
+
+.SH-SharBtn {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    display: inline-block;
+    background-color: #3d3d3d;
+    color: #f3b004;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: Bahij;
+}
+
+.SH-SharBtnOpen {
+    color: #595959;
+    color: white;
+    opacity: 0.15;
+}
+
+.SH-SharBtn i {
+    margin-left: 5px;
+}
+
+.fa-share::before {
+    content: "\f064";
+}
+
+.at-share-btn-elements{
+    background-color: #20242e;
+}
+
+.at-label{
+    color: white;
+}
+
+
+
+ .SH-SharBtn {background-image: linear-gradient(to right, #B22CFF 0%, #2F9EA6  51%, #B22CFF  100%)}
+ .SH-SharBtn {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+     background-position: right center;
+     border-radius: 5px;
+  }
+
+  .SH-SharBtn:hover {
+    background-position: 0; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
